@@ -11,7 +11,7 @@ def showDir(num ,dirs,des):
         for files in onlyfiles:
             for i in range(0,num):
                 print('  ',end="")
-            print("|__"+files[1:])
+            print("|__"+files[0:])
     except Exception as err:
         pass
     dis = []
